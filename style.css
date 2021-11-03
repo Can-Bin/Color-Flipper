@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container{
+    margin: 10rem auto;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#clr-div{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    align-items: center;
+    vertical-align: middle;
+
+}
+
+.border{
+    outline: 4px solid white;
+    outline-offset: 1px;
+    transition: all .7s;
+    box-shadow: 10px 10px 10px whitesmoke;
+}
+
+#btn-div{
+    text-align: center;
+}
+
+#btn{
+    padding: 0.6rem 1rem;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    transition: .4s;
+    cursor: pointer;
+}
+
+#btn:hover{
+    background-color: black;
+    color: white;
+    box-shadow: 5px 5px 5px white;
+}
